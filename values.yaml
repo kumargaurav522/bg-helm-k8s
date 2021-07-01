@@ -1,0 +1,15 @@
+green:
+  enabled: false
+
+blue:
+  enabled: true
+
+productionSlot: blue
+
+replicaCount: 1
+
+ingress:
+  hostname: blue.hellogbye.com
+  stagehostname: green.hellogbye.com
+
+index: hello world
